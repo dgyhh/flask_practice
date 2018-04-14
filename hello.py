@@ -9,4 +9,5 @@ def user(name):
     return('<h1>hello,%s</h1>'% name)
 
 if __name__ == '__main__':
+    print('start the main loop')   
     app.run(debug = True)
